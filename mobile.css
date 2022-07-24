@@ -1,0 +1,156 @@
+/* Small laptop and big tablets screen sizes */
+@media only screen and (max-width: 1024px) {
+  .xl-w-100 {
+    min-width: 100%;
+  }
+  .xl-w-50 {
+    min-width: 50%;
+  }
+  .xl-w-33 {
+    min-width: 33%;
+  }
+  li > a {
+    padding: 10px 20px;
+  }
+  #main-txt h1 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+  #main-txt p {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  #main-img {
+    width: 380px;
+  }
+  .xl-flex-col {
+    flex-direction: column;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+}
+/* for tablets horizontal screen and vertical */
+@media only screen and (max-width: 900px) {
+  .lg-w-100 {
+    min-width: 100%;
+  }
+  .lg-w-50 {
+    min-width: 50%;
+  }
+  .lg-w-33 {
+    min-width: 33%;
+  }
+  .lg-flex-col {
+    flex-direction: column;
+  }
+  #navbar {
+    display: none;
+  }
+  .icon {
+    flex-grow: 1;
+    text-align: end;
+    display: block;
+  }
+  .flex-container {
+    width: 85%;
+  }
+  #main-txt h1 {
+    font-size: 38px;
+  }
+  .main-img-div {
+    padding-top: 30px;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+/* For small tablets screens*/
+@media only screen and (max-width: 768px) {
+  .md-w-100 {
+    min-width: 100%;
+  }
+  .md-w-50 {
+    min-width: 50%;
+  }
+  .md-w-33 {
+    min-width: 33%;
+  }
+  .md-flex-col {
+    flex-direction: column;
+  }
+  .flex-container {
+    width: 90%;
+  }
+
+  #main-txt h1 {
+    font-size: 48px;
+  }
+  #main-txt p {
+    font-size: 16px;
+  }
+  #main-img {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+/* mobile phone vertical screen */
+@media only screen and (max-width: 600px) {
+  .sm-w-100 {
+    min-width: 100%;
+  }
+  .sm-w-50 {
+    min-width: 50%;
+  }
+  .sm-w-33 {
+    min-width: 33%;
+  }
+  /* logo size */
+  .sm-flex-col {
+    flex-direction: column;
+  }
+  #hamburger {
+    display: block;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  #hamburger > i {
+    background-color: var(--primaryBgColor);
+    padding: 7px;
+    font-size: 16px;
+    color: var(--primaryTxtColor);
+    border-radius: 4px;
+  }
+  #main-txt h1 {
+    font-size: 40px;
+  }
+  #main-txt p {
+    font-size: 14px;
+  }
+}
+/* standard mobile devices  */
+@media only screen and (max-width: 480px) {
+  #main-img {
+    width: 240px;
+  }
+  #main-txt h1 {
+    font-size: 36px;
+  }
+  #main-txt p {
+    font-size: 13px;
+  }
+}
+/* small mobile deivces */
+@media only screen and (max-width: 320px) {
+  #main-txt h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  #main-txt h5 {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,21 @@
+*{
+    background-color: #f7f7f7;
+}
+h1{
+    padding: 10px;
+    color: red;
+    background-color: rgb(101, 206, 74);
+  }
+  
+  h2{
+    padding: 10px;
+    color: rgb(10, 32, 11);
+    background-color: rgb(200, 253, 187);
+
+  }
+  
+  p{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 74, 116);
+  }

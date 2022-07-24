@@ -1,0 +1,7 @@
+/* About us page */
+
+#aboutPage{
+    background: linear-gradient(38deg, rgba(14,30,112,1) 13%, rgba(8,26,119,1) 35%, rgba(15,39,168,1) 60%, rgba(19,50,213,1) 81%, rgba(86,113,255,1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    padding: 150px 0 50px 0;
+ }

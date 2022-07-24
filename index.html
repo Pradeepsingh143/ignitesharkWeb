@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>igniteshark</title>
+    <script src="/header.js" type="module"></script>
+    <link rel="stylesheet" href="class_library.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="homePage" >
+    <!-- website header from header.js -->
+   <my-header></my-header>
+<!-- section 1 start -->
+  <main class="flex-container lg-flex-col space-between" id="section2">
+    <div class="flex-item grow-1" id="main-txt">
+      <h5>Web Design for Everyone</h5>
+      <h1>Creative <strong>Web<br> Design</strong> Agency</h1>
+      <p>We are a group of professional website designers having expertise in multiple technologies</p>
+      <div id="get-start-btn"><a class="btn-primary startBtn" href="">Get Started
+        <i class='fa fa-hand-o-right'></i>
+      </a></div>
+    </div>
+    <div class="flex-item col-2 main-img-div flex grow-1"><img id="main-img" src="/img/web man.png" alt="ambasider"></div>
+  </main>
+</div>
+
+<!-- About section -->
+  <section id="about-section">
+    <div class="flex-container xl-flex-col" id="about-container">
+      <div class="flex flex-col w-50">
+        <img src="/img/Web development _Isometric.svg" alt="Web development">
+        <!-- info box -->
+        <div class="info-box flex" id="info-box">
+          <div><img src="/img/logo-white.png" alt="igniteshark logo" width="75px"></div>
+          <div><h1>Founded in 2017</h1>
+            <p>That shaped what we are today!</p></div>
+        </div>
+        <!-- info box end -->
+      </div>
+      <div class="col-2 w-50 p-50">
+       <h1>We Help IT Companies Scale Engineering Capacity</h1>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores illum laboriosam similique sint. Vitae libero deleniti eligendi quasi enim. Ex eaque laborum accusamus, tempore sed doloribus ab dolorem doloremque, recusandae sapiente deserunt asperiores quam dicta eos omnis atque! Architecto, accusantium?</p>
+       <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="tabContent('Website-Creation')">Custom Web Creation</button>
+        <button class="w3-bar-item w3-button" onclick="tabContent('wordpress')">Wordpress</button>
+        <button class="w3-bar-item w3-button" onclick="tabContent('landingPage')">Landing Page</button>
+        <div id="Website-Creation" class="w3-container city">
+          <h2>Custom Website Creation</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quas recusandae, architecto, dolores quam consequuntur quidem possimus illum itaque consequatur, iste pariatur alias ex laboriosam sint quia dignissimos dicta. Minus consectetur architecto repellendus quas officia rem vitae veritatis excepturi tempore.</p>
+        </div>
+        
+        <div id="wordpress" class="w3-container city" style="display:none">
+          <h2>Wordpress</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur blanditiis voluptatem dolores reiciendis magnam accusantium voluptates quo itaque nostrum, quae quidem saepe provident corrupti delectus quaerat. Magni repellendus dignissimos accusamus provident officiis aspernatur in ut fugiat est. Blanditiis, dolore iusto!</p> 
+        </div>
+        
+        <div id="landingPage" class="w3-container city" style="display:none">
+          <h2>Landing Page</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque a id quasi obcaecati reprehenderit nisi nihil adipisci, vel iste. Dolore, et porro animi iusto vitae molestias iste exercitationem dignissimos cumque minus, aliquid nostrum delectus, accusamus quae quos laudantium accusantium quod.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+<!-- about end -->
+
+</body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mobile.css">
+<script src="style.js"></script>
+</html>
